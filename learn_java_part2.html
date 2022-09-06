@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <script src="myScript.js"></script>
+  </head>
+  <body>
+    <!-- Innehtml content -->
+
+    <h3>first inner html</h3>
+    <p>My first paragraph</p>
+
+    <p id="x1"></p>
+    <script>
+      document.getElementById('x1').innerHTML=5+6;
+    </script>
+    
+    <hr>
+
+    <!-- document.write() -->
+    <h4>Document.write() Shoud only use for testing</h4>
+    
+    <script>
+      document.write(7+8);
+    </script>
+
+    <hr>
+
+    <h3>my 1st web site</h3>
+    <p>demo text</p>
+    <button type="button" onclick="document.write(5+6)">try me</button>
+    <hr>
+
+   
+    <!-- <h4>Useing window.alert() function</h4>
+
+    <script>
+      window.alert('are you sure to relode this site');
+    </script> -->
+    <script>
+      console.log(10+22);
+    </script>
+
+    <!-- Dairect print with printer  option-->
+    <h4>Print this page with this button</h4>
+    <button onclick="window.print()">Print this page</button>
+    <hr>
+
+    <!-- Java Statements -->
+    <h4>Java Script Statement</h4>
+    <p id="x5"></p>
+    <script>
+      let x, y, z;
+      x = 5;
+      y = 6;
+      z = x + y;
+      document.getElementById("x5").innerHTML="The value of z is" + z + ".";
+    </script>
+    <hr>
+    <p>JavaScript code block are writter in {...}</p>
+
+    <p id="k1"></p>
+    <p id="k2"></p>
+    
+    <button type="button" onclick="hiHelo()">Click me</button>
+    
+
+
+
+
+  </body>
+</html>

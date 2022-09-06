@@ -1,0 +1,78 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+     <h1>javascript Learning</h1> <br> <br>
+   
+   
+     <h4> What javascript can Do</h4>
+   
+     <!-- Html element replace with javascript -->
+   
+     <p id="id1"> this text will change when button click</p>
+     <button type="button" onclick="document.getElementById('id1').innerHTML='Can you See the change'"> Click me</button>
+     <hr>
+   
+     <br>
+     <!-- A Light Bulb Turn on And Off with button -->
+   
+     <button onclick="document.getElementById('lightBulb').src='bulb-on.png'">Turn on the light</button>
+   
+     <img id="lightBulb" src="bulb-off.png" style="width: 200px;">
+   
+     <button onclick="document.getElementById('lightBulb').src='bulb-off.png'">Turn off the light</button>
+   
+     <br><hr> <br>
+     
+     <!-- Font Size Change By click button -->
+   
+     <p id="x1">This text size will changed by click the button</p>
+     <button type="button" onclick="document.getElementById('x1').style.fontSize='20px'">Click Now</button>
+   
+     <br> <hr> <br>
+
+     <!-- Tex hide method with java -->
+   
+     <p id="demo">This Text will Be hide when you click the button</p>
+     <button type="button" onclick="document.getElementById('demo').style.display='none'">click here</button>
+     <br>
+     <hr>
+   
+     <!-- Hidden HTML element show with java -->
+   
+     <p id="x2" style="display: none;">i am a hidden element</p>
+     <button type="button" onclick="document.getElementById('x2').style.display='block'">click here</button>
+  
+     <br> <hr>
+   
+     <!-- Script tag in html -->
+   
+     <h4>Script tag in html</h4>
+     <p id="x5"></p>
+     <script>
+       document.getElementById('x5').innerHTML = "My first JavaScript";
+     </script>
+   
+   
+     <hr>
+   
+     <!-- JavaScript function in html head section -->
+   
+     <h4>JavaScript function in Head</h4>
+   
+     <p id="ii"> sample text here</p>
+     <button type="button" onclick="myfunction()">try this one</button>
+   
+     <script src="myScript.js"></script>
+   
+     <br>
+     <hr>
+
+     
+   
+</body>
+
+</html>
